@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dunes-script-module name="dynamicPropertyDefinition" result-type="Properties" api-version="6.0.0" id="ba4ec1fb-48ab-44c3-b286-efd8544f5c6d" version="1.0.1" allowed-operations="vef">
+  <param n="listValueDefinitionResource" t="string"><![CDATA[]]></param>
+  <param n="filter1" t="string"><![CDATA[]]></param>
+  <param n="filter2" t="string"><![CDATA[]]></param>
+  <param n="filter3" t="string"><![CDATA[]]></param>
+  <script encoded="false"><![CDATA[var logger = System.getModule("com.vmware.pscoe.library.logging").getLogger("Get dynamic values for Property Definition");
+
+try {
+	var propertyDefinition = new Properties();
+	
+	var jsonMappingElement;
+	var parts = listValueDefinitionResource.split("/");
+	var categoryPath = "";
+	var elementName = parts[0];
+	if (parts.length > 1) {
+		elementName = parts[parts.length -1]
+	
+		for (var i = 0; i < parts.length - 1; i++) {
+			categoryPath += parts[i];
+			if (i < parts.length - 2) {
+				categoryPath += "/";
+			}
+		}
+		jsonMappingElement = System.getModule("com.vmware.pscoe.library.util").getResourceElementByPath(categoryPath, elementName) ;	
+	} else {
+		jsonMappingElement = System.getModule("com.vmware.pscoe.library.util").getResourceElementByName(elementName) ;
+	}
+	
+	var jsonMappingContent = jsonMappingElement.getContentAsMimeAttachment().content;
+	jsonMappingContent = JSON.parse(jsonMappingContent)
+	
+	var filteredJsonObjects = jsonMappingContent.filter(function(el) {	
+		return ((!filter1 || el.filterParam1 == filter1) && (!filter2 || el.filterParam2 == filter2) && (!filter3 || el.filterParam3 == filter3))
+	});
+	
+	
+	for each(var jsonObject in filteredJsonObjects) {
+		for each(var selection in jsonObject.Selections) {
+			// for property definitions in vRA the Property value is displayed in an IaaS form but the Property key is set as a value to a custom property
+			propertyDefinition.put(selection.value, selection.key)
+		}
+	}
+
+	return propertyDefinition;
+} catch (e) {
+	logger.error("Unexpected error occured: " + e);
+	return new Properties();
+}]]></script>
+</dunes-script-module>

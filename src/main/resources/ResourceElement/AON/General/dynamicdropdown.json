@@ -1,0 +1,623 @@
+[
+	{
+	 "filterParam1":"PuppetRoles",
+	 "filterParam2":"W",
+	 "filterParam3":"SQL Server Single Node",
+	 "Selections": [
+			{
+				 "key":"SQLServer 2008 Developer database server",
+				 "value":"sqlserver_2008_dev"
+			}, {
+				 "key":"SQLServer 2008 Enterprise database server",
+				 "value":"sqlserver_2008_ent"
+			}, {
+				 "key":"SQLServer 2008 Standard database server",
+				 "value":"sqlserver_2008_std"
+			}, {
+				 "key":"SQLServer 2012 Enterprise database server",
+				 "value":"sqlserver_2012_ent"
+			}, {
+				 "key":"SQLServer 2012 Standard database server",
+				 "value":"sqlserver_2012_std"
+			}, {
+				 "key":"SQLServer 2014 Developer database server",
+				 "value":"sqlserver_2014_dev"
+			}, {
+				 "key":"SQLServer 2014 Enterprise database server",
+				 "value":"sqlserver_2014_ent"
+			}, {
+				 "key":"SQLServer 2014 Standard database server",
+				 "value":"sqlserver_2014_std"
+			}, {
+				 "key":"SQLServer 2012 Developer database server",
+				 "value":"sqlserver_2012_dev"
+			}
+		]
+	}, {
+	 "filterParam1":"PuppetRoles",
+	 "filterParam2":"W",
+	 "filterParam3":"APP/MW-08",
+	 "Selections": [
+			{
+				 "key":"Base",
+				 "value":"base"     
+			}
+		]
+	}, {
+	 "filterParam1":"PuppetRoles",
+	 "filterParam2":"W",
+	 "filterParam3":"APP/MW-12",
+	 "Selections": [
+			{
+				 "key":"Base",
+				 "value":"base"     
+			}, {   
+				 "key":"Microsoft IIS 8.5 web server",
+				 "value":"iis_server_85"
+			} 
+		]
+	}, {
+	 "filterParam1":"PuppetRoles",
+	 "filterParam2":"W",
+	 "filterParam3":"SQL Server Always-On",
+	 "Selections": [
+			{
+				 "key":"Base",
+				 "value":"base"     
+			} 
+		]
+	}, {
+	 "filterParam1":"PuppetRoles",
+	 "filterParam2":"V",
+	 "filterParam3":"APP/MW-6",
+	 "Selections": [
+			{
+				 "key":"Base",
+				 "value":"base"
+			}, {
+				 "key":"Pivotal Apache 6.2 web server",
+				 "value":"apache_server_62"
+			}, {
+				 "key":"IBM MQSeries 7.5 messaging server",
+				 "value":"mq_server_75"
+			}, {
+				 "key":"Pivotal Tomcat 2.9 application server",
+				 "value":"tcserver_29"
+				}, {
+				 "key":"Pivotal Tomcat 3.2 application server",
+				 "value":"tcserver_32"
+			}, {
+				 "key":"IBM Websphere 8.5 application server",
+				 "value":"websphere_85"
+			}, {
+				 "key":"JBoss EAP 6.4.5",
+				 "value":"jboss_64"
+			}
+		]
+	}, {
+	 "filterParam1":"PuppetRoles",
+	 "filterParam2":"V",
+	 "filterParam3":"APP/MW-7",
+	 "Selections": [
+			{
+				 "key":"Base",
+				 "value":"base"
+			}, {
+				 "key":"Pivotal Apache 6.2 web server",
+				 "value":"apache_server_62"
+			}, {
+				 "key":"IBM MQSeries 7.5 messaging server",
+				 "value":"mq_server_75"
+			}, {
+				 "key":"Pivotal Tomcat 2.9 application server",
+				 "value":"tcserver_29"
+				}, {
+				 "key":"Pivotal Tomcat 3.2 application server",
+				 "value":"tcserver_32"
+			}, {
+				 "key":"IBM Websphere 8.5 application server",
+				 "value":"websphere_85"
+			}
+		]
+	}, {
+	 "filterParam1":"PuppetRoles",
+	 "filterParam2":"W",
+	 "filterParam3":"All",
+	 "Selections": [
+			{
+				 "key":"SQLServer 2008 Developer database server",
+				 "value":"sqlserver_2008_dev"
+			}, {
+				 "key":"SQLServer 2008 Enterprise database server",
+				 "value":"sqlserver_2008_ent"
+			}, {
+				 "key":"SQLServer 2008 Standard database server",
+				 "value":"sqlserver_2008_std"
+			}, {
+				 "key":"SQLServer 2012 Enterprise database server",
+				 "value":"sqlserver_2012_ent"
+			}, {
+				 "key":"SQLServer 2012 Standard database server",
+				 "value":"sqlserver_2012_std"
+			}, {
+				 "key":"SQLServer 2014 Developer database server",
+				 "value":"sqlserver_2014_dev"
+			}, {
+				 "key":"SQLServer 2014 Enterprise database server",
+				 "value":"sqlserver_2014_ent"
+			}, {
+				 "key":"SQLServer 2014 Standard database server",
+				 "value":"sqlserver_2014_std"
+			}, {
+				 "key":"SQLServer 2012 Developer database server",
+				 "value":"sqlserver_2012_dev"
+			}, {
+				 "key":"Base",
+				 "value":"base"     
+			}, {   
+				 "key":"Microsoft IIS 8.5 web server",
+				 "value":"iis_server_85"
+			} 
+		]
+	}, {
+	 "filterParam1":"PuppetRoles",
+	 "filterParam2":"V",
+	 "filterParam3":"All",
+	 "Selections": [
+			{
+				 "key":"Oracle 11.x database server",
+				 "value":"oracle_11"
+			}, {
+				 "key":"Oracle 12.x database server",
+				 "value":"oracle_12"
+			}, {
+				 "key":"Base",
+				 "value":"base"
+			}, {
+				 "key":"Pivotal Apache 6.2 web server",
+				 "value":"apache_server_62"
+			}, {
+				 "key":"IBM MQSeries 7.5 messaging server",
+				 "value":"mq_server_75"
+			}, {
+				 "key":"Pivotal Tomcat 2.9 application server",
+				 "value":"tcserver_29"
+			}, {
+				 "key":"Pivotal Tomcat 3.2 application server",
+				 "value":"tcserver_32"
+			}, {
+				 "key":"IBM Websphere 8.5 application server",
+				 "value":"websphere_85"
+			}
+		]
+	}, {
+	 "filterParam1":"PuppetRoles",
+	 "filterParam2":"V",
+	 "filterParam3":"Oracle",
+	 "Selections": [
+			{
+				 "key":"Oracle 11.x database server",
+				 "value":"oracle_11"
+			}, {
+				 "key":"Oracle 12.x database server",
+				 "value":"oracle_12"
+			}
+		]
+	}, {
+	 "filterParam1":"PuppetRoles",
+	 "filterParam2":"V",
+	 "filterParam3":"database",
+	 "Selections": [
+			{
+				 "key":"Base",
+				 "value":"base"
+			}
+		]
+	}, {
+	"filterParam1":"Lifecycle",
+	"filterParam2":"Development",
+	"Selections": [
+			{
+				 "key":"Test/QA",
+				 "value":"T"
+			}, {
+				 "key":"Proof of Concept",
+				 "value":"I"
+			}, {
+				 "key":"Lab",
+				 "value":"L"
+			}, {
+				 "key":"Development",
+				 "value":"D"
+			}, {
+				 "key":"Stress/Performance",
+				 "value":"S"
+			}, {
+				 "key":"QC/UAT",
+				 "value":"Q"
+			}
+		]
+	}, {
+	"filterParam1":"Lifecycle",
+	"filterParam2":"All",
+	"Selections": [
+			{
+				 "key":"Test/QA",
+				 "value":"T"
+			}, {
+				 "key":"Proof of Concept",
+				 "value":"I"
+			}, {
+				 "key":"Lab",
+				 "value":"L"
+			}, {
+				 "key":"Development",
+				 "value":"D"
+			}, {
+				 "key":"Stress/Performance",
+				 "value":"S"
+			}, {
+				 "key":"QC/UAT",
+				 "value":"Q"
+			}, {
+				 "key":"Production",
+				 "value":"P"
+			}
+		]
+	}, {
+	"filterParam1":"PatchBucket",
+	"filterParam2":"W",
+	"Selections": [
+			{
+				 "key":"Alpha: Standard Thursday 10PM",
+				 "value":"Alpha"
+			}, {
+				 "key":"Bravo: Reserved App Team: Friday at 10PM",
+				 "value":"Bravo"
+			}, {
+				 "key":"Charlie: Standard: Sunday 1AM",
+				 "value":"Charlie"
+			}, {
+				 "key":"Delta: Standard: Wednesday 1PM",
+				 "value":"Delta"
+			}, {
+				 "key":"Echo: Standard: Wednesday 10PM",
+				 "value":"Echo"
+			}, {
+				 "key":"Foxtrot: Standard: Sunday 1AM",
+				 "value":"Foxtrot"
+			}, {
+				 "key":"Golf: Reserved App Team: Tuesday 10PM",
+				 "value":"Golf"
+			}, {
+				 "key":"Hotel: Reserved Critical: Sunday 5:30AM",
+				 "value":"Hotel"
+			}
+		]
+	}, {
+	"filterParam1":"PatchBucket",
+	"filterParam2":"V",
+	"Selections": [
+			{
+				 "key":"Dev or QA or Test, Week Day, Week 1",
+				 "value":"DQTW1"
+			}, {
+				 "key":"Dev or QA or Test, Week End, Week 1",
+				 "value":"DQTE1"
+			}, {
+				 "key":"First MMW of the year",
+				 "value":"MMW1"
+			}, {
+				 "key":"QC, Week Day, Week 9",
+				 "value":"QCW9"
+			}, {
+				 "key":"QC, Week End, Week 9",
+				 "value":"QCE9"
+			}, {
+				 "key":"Stress Test, Week Day, Week 14",
+				 "value":"SW14"
+			}, {
+				 "key":"Stress Test, Week End, Week 14",
+				 "value":"SE14"
+			}, {
+				 "key":"Production, Week End, Week 17",
+				 "value":"PE17"
+			}, {
+				 "key":"Production, Week days, Week 12",
+				 "value":"PW12"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"V",
+	"Selections": [
+			{
+				 "key":"LDAP",
+				 "value":"LDP"
+			}, {
+				 "key":"Web Server",
+				 "value":"WEB"
+			}, {
+				 "key":"Application",
+				 "value":"APP"
+			}, {
+				 "key":"File Server",
+				 "value":"FLS"
+			}, {
+				 "key":"Mgmt/Monitoring",
+				 "value":"MGT"
+			}, {
+				 "key":"Witness",
+				 "value":"WIT"
+			}, {
+				 "key":"DB2",
+				 "value":"DB2"
+			}, {
+				 "key":"Hadoop",
+				 "value":"DBH"
+			}, {
+				 "key":"MongoDB",
+				 "value":"DBG"
+			}, {
+				 "key":"MySQL",
+				 "value":"DBM"
+			}, {
+				 "key":"Oracle",
+				 "value":"DBO"
+			}, {
+				 "key":"Postgres",
+				 "value":"DBP"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"V",
+	"filterParam3":"base",
+	"Selections": [
+			{
+				 "key":"LDAP",
+				 "value":"LDP"
+			}, {
+				 "key":"File Server",
+				 "value":"FLS"
+			}, {
+				 "key":"Application Server",
+				 "value":"APP"
+			}, {
+				 "key":"SQL Server (Win2K8 Only)",
+				 "value":"DBS"
+			}, {
+				 "key":"Mgmt/Monitoring",
+				 "value":"MGT"
+			}, {
+				 "key":"Witness",
+				 "value":"WIT"
+			}, {
+				 "key":"DB2",
+				 "value":"DB2"
+			}, {
+				 "key":"Hadoop",
+				 "value":"DBH"
+			}, {
+				 "key":"MongoDB",
+				 "value":"DBG"
+			}, {
+				 "key":"MySQL",
+				 "value":"DBM"
+			}, {
+				 "key":"Postgres",
+				 "value":"DBP"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"V",
+	"filterParam3":"apache_server_62",
+	"Selections": [
+			{
+				 "key":"Web Server",
+				 "value":"WEB"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"V",
+	"filterParam3":"jboss_64",
+	"Selections": [
+			{
+				 "key":"Web Server",
+				 "value":"WEB"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"V",
+	"filterParam3":"mq_server_75",
+	"Selections": [
+			{
+				 "key":"Application Server",
+				 "value":"APP"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"V",
+	"filterParam3":"tcserver_29",
+	"Selections": [
+			{
+				 "key":"Application Server",
+				 "value":"APP"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"V",
+	"filterParam3":"tcserver_32",
+	"Selections": [
+			{
+				 "key":"Application Server",
+				 "value":"APP"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"V",
+	"filterParam3":"websphere_85",
+	"Selections": [
+			{
+				 "key":"Application Server",
+				 "value":"APP"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"W",
+	"filterParam3":"base",
+	"Selections": [
+			{
+				 "key":"DC (R/O)",
+				 "value":"ADO"
+			}, {
+				 "key":"Application Server",
+				 "value":"APP"
+			}, {
+				 "key":"SQL Server (Win2K8 Only)",
+				 "value":"DBS"
+			}, {
+				 "key":"DC (W/R)",
+				 "value":"ADC"
+			}, {
+				 "key":"File Server",
+				 "value":"FLS"
+			}, {
+				 "key":"Mgmt/Monitoring",
+				 "value":"MGT"
+			}, {
+				 "key":"Web Server",
+				 "value":"WEB"
+			}, {
+				 "key":"Witness",
+				 "value":"WIT"
+			}, {
+				 "key":"Config Mrg - Cloud Proxy",
+				 "value":"CMP"
+			}, {
+				 "key":"Config Mgr - Site Server",
+				 "value":"CMS"
+			}, {
+				 "key":"Config Mgr - Mgmt Point",
+				 "value":"CMM"
+			}, {
+				 "key":"Config Mgr - IBCM",
+				 "value":"CMI"
+			}, {
+				 "key":"Config Mgr - Dist Point",
+				 "value":"CMD"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"W",
+	"filterParam3":"iis_server_85",
+	"Selections": [
+			{
+				 "key":"Application Server",
+				 "value":"APP"
+			}, {
+				 "key":"Web Server",
+				 "value":"WEB"
+			}
+
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"W",
+	"filterParam3":"sqlserver_2012_dev",
+	"Selections": [
+			{
+				 "key":"Microsoft SQL Server",
+				 "value":"DBS"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"W",
+	"filterParam3":"sqlserver_2012_std",
+	"Selections": [
+			{
+				 "key":"Microsoft SQL Server",
+				 "value":"DBS"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"W",
+	"filterParam3":"sqlserver_2012_ent",
+	"Selections": [
+			{
+				 "key":"Microsoft SQL Server",
+				 "value":"DBS"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"W",
+	"filterParam3":"sqlserver_2014_dev",
+	"Selections": [
+			{
+				 "key":"Microsoft SQL Server",
+				 "value":"DBS"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"W",
+	"filterParam3":"sqlserver_2014_std",
+	"Selections": [
+			{
+				 "key":"Microsoft SQL Server",
+				 "value":"DBS"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"W",
+	"filterParam3":"sqlserver_2014_ent",
+	"Selections": [
+			{
+				 "key":"Microsoft SQL Server",
+				 "value":"DBS"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"W",
+	"filterParam3":"sqlserver_2008_dev",
+	"Selections": [
+			{
+				 "key":"Microsoft SQL Server",
+				 "value":"DBS"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"W",
+	"filterParam3":"sqlserver_2008_std",
+	"Selections": [
+			{
+				 "key":"Microsoft SQL Server",
+				 "value":"DBS"
+			}
+		]
+	}, {
+	"filterParam1":"Function",
+	"filterParam2":"W",
+	"filterParam3":"sqlserver_2008_ent",
+	"Selections": [
+			{
+				 "key":"Microsoft SQL Server",
+				 "value":"DBS"
+			}
+		]
+	}
+]
